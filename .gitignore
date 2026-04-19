@@ -1,0 +1,24 @@
+# 依存パッケージ（npm installで復元されるのでコミットしない）
+node_modules/
+
+# Next.jsのビルド成果物
+.next/
+out/
+
+# ログ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 環境変数（APIキーなど。絶対にGitHubに上げない）
+.env
+.env.local
+.env.*.local
+
+# Mac/Windows特有のファイル
+.DS_Store
+Thumbs.db
+
+# エディタ
+.vscode/
+.idea/
